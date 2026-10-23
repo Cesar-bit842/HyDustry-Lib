@@ -1,0 +1,16 @@
+# Gradle
+.gradle/
+build/
+
+# NetBeans IDE
+nbproject/ 
+HyDustryLib.code-workspace
+
+# Otros IDEs (por si acaso)
+.idea/
+*.iml
+.vscode/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db

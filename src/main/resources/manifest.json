@@ -1,0 +1,22 @@
+{
+    "Group": "Hytale.Modification",
+    "Name": "HyDustryLib",
+    "Version": "1.0.1",
+    "Description": "Utility for Hytale modding and developers, includes greater ease and process optimization",
+    "Authors": [
+        {
+            "Name": "Hytale Modding Community"
+        }
+    ],
+    "Website": "https://github.com/Cesar-bit842/HyDustryLib",
+    "ServerVersion": ">=0.7.2 <8.0.0",
+    "Dependencies": {
+        
+    },
+    "OptionalDependencies": {
+        
+    },
+    "DisabledByDefault": false,
+    "Main": "Hytale.Modification.hydustrylib.HyDustryLib",
+    "IncludesAssetPack": true
+}
