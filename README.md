@@ -1,45 +1,42 @@
 <p><img src="https://media.forgecdn.net/attachments/description/null/description_e2028ba1-c9d8-4a44-9dab-3a2d9e383f93.png" alt="" width="849" height="297"></p>
 <h3><strong>HyDustry Lib</strong></h3>
-<p><em>The <strong>Open Source</strong> Library for Java and for the Node Editor -&gt; <a title="Github" href="https://github.com/Cesar-bit842/HyDustryLib" target="_blank" rel="noopener">Open Source [Github]</a></em></p>
+<p><em>The <strong>Open Source</strong> Library for Java and for the Node Editor -&gt; <a href="https://github.com/Cesar-bit842/HyDustry-Lib" target="_blank" rel="nofollow noopener">Open Source [Github]</a></em></p>
 <p>&nbsp;</p>
-<h3><strong><span style="color: rgb(224, 62, 45);"><em>&iexcl;Attention!</em></span></strong></h3>
-<p><span style="color: rgb(224, 62, 45);"><em>Originally, this library was created as a dependency for HyDustry. Many Java functions have become obsolete&mdash;especially those that retrieve a component from the class they reference&mdash; and the tagging system will be removed as the project transitions into an open source mod, which will then serve as a dependency for this one.</em></span></p>
-<p>&nbsp;</p>
-<h1><span style="color: rgb(224, 62, 45);"><strong><em>for Java programmers</em></strong></span></h1>
-<p><span style="color: rgb(53, 152, 219);"><em>class HyDustryLib&nbsp;</em></span></p>
-<h5><span style="color: rgb(241, 196, 15);"><strong><em>HyDustryLib.AddConsumerMachineOperationType(String Name, Consumer&lt;ConsumerMachineComponent&gt; Function):</em></strong></span></h5>
-<h4><span style="color: rgb(53, 152, 219);"><em>Add a new operation format to the machines.&nbsp;</em></span></h4>
-<h4><span style="color: rgb(53, 152, 219);"><em>example:&nbsp;</em></span></h4>
+<h1><span style="color: #e03e2d;"><strong><em>for Java programmers</em></strong></span></h1>
+<p><span style="color: #3598db;"><em>class HyDustryLib&nbsp;</em></span></p>
+<h5><span style="color: #f1c40f;"><strong><em>HyDustryLib.AddConsumerMachineOperationType(String Name, Consumer&lt;ConsumerMachineComponent&gt; Function):</em></strong></span></h5>
+<h4><span style="color: #3598db;"><em>Add a new operation format to the machines.&nbsp;</em></span></h4>
+<h4><span style="color: #3598db;"><em>example:&nbsp;</em></span></h4>
 <div>
-<h5><span style="color: rgb(132, 63, 161);"><code>HyDustryLib.AddConsumerMachineOperationType("Essence Extractor", &lt;classname&gt;::Execute);</code></span></h5>
+<h5><span style="color: #843fa1;"><code>HyDustryLib.AddConsumerMachineOperationType("Essence Extractor", &lt;classname&gt;::Execute);</code></span></h5>
 </div>
-<h5><span style="color: rgb(53, 152, 219);"><em><br><span style="color: rgb(241, 196, 15);"><strong>HyDustryLib.AddConveyorOperationType(String Name, Consumer&lt;ConveyorTransporterComponent&gt; Function):&nbsp;</strong></span></em></span></h5>
-<h4><span style="color: rgb(53, 152, 219);"><em>agrega o reemplaza en el&nbsp;mapa una funcion de operacion para transportadores.</em></span></h4>
-<h4><span style="color: rgb(53, 152, 219);"><em>example:&nbsp;</em></span></h4>
+<h5><span style="color: #3598db;"><em><br><span style="color: #f1c40f;"><strong>HyDustryLib.AddConveyorOperationType(String Name, Consumer&lt;ConveyorTransporterComponent&gt; Function):&nbsp;</strong></span></em></span></h5>
+<h4><span style="color: #3598db;"><em>agrega o reemplaza en el&nbsp;mapa una funcion de operacion para transportadores.</em></span></h4>
+<h4><span style="color: #3598db;"><em>example:&nbsp;</em></span></h4>
 <div>
 <div>
-<h5><span style="color: rgb(132, 63, 161);"><code>HyDustryLib.AddConveyorOperationType("Rotator Conveyor", &lt;classname&gt;::Execute);</code></span></h5>
+<h5><span style="color: #843fa1;"><code>HyDustryLib.AddConveyorOperationType("Rotator Conveyor", &lt;classname&gt;::Execute);</code></span></h5>
 </div>
 </div>
 <p>&nbsp;</p>
-<h5><span style="color: rgb(241, 196, 15);"><strong><em>HyDustryLib.get()</em></strong></span></h5>
-<h4><span style="color: rgb(53, 152, 219);"><em>Add a new operation format to the machines.&nbsp;</em></span></h4>
-<h4><span style="color: rgb(53, 152, 219);"><em>example:&nbsp;&nbsp;</em></span></h4>
+<h5><span style="color: #f1c40f;"><strong><em>HyDustryLib.get()</em></strong></span></h5>
+<h4><span style="color: #3598db;"><em>Add a new operation format to the machines.&nbsp;</em></span></h4>
+<h4><span style="color: #3598db;"><em>example:&nbsp;&nbsp;</em></span></h4>
 <p>&nbsp;</p>
 <div>
-<h5><span style="color: rgb(241, 196, 15);"><strong><em>HyDustryLib.getConsumerMachineComponentType()</em></strong></span></h5>
-<h4><span style="color: rgb(53, 152, 219);"><em>returns the registered type of getConsumerMachineComponentType.</em></span></h4>
+<h5><span style="color: #f1c40f;"><strong><em>HyDustryLib.getConsumerMachineComponentType()</em></strong></span></h5>
+<h4><span style="color: #3598db;"><em>returns the registered type of getConsumerMachineComponentType.</em></span></h4>
 <p>&nbsp;</p>
-<h5><span style="color: rgb(241, 196, 15);"><strong><em>HyDustryLib.getConveyorTransporterComponentType()</em></strong></span></h5>
-<h4><span style="color: rgb(53, 152, 219);"><em>returns the registered type of getConveyorTransporterComponentType.</em></span></h4>
+<h5><span style="color: #f1c40f;"><strong><em>HyDustryLib.getConveyorTransporterComponentType()</em></strong></span></h5>
+<h4><span style="color: #3598db;"><em>returns the registered type of getConveyorTransporterComponentType.</em></span></h4>
 <div>
 <p>&nbsp;</p>
-<h5><span style="color: rgb(241, 196, 15);"><strong><em>HyDustryLib.getHarvestingEngineComponentType()</em></strong></span></h5>
-<h4><span style="color: rgb(53, 152, 219);"><em>returns the registered type of getHarvestingEngineComponentType.</em></span></h4>
+<h5><span style="color: #f1c40f;"><strong><em>HyDustryLib.getHarvestingEngineComponentType()</em></strong></span></h5>
+<h4><span style="color: #3598db;"><em>returns the registered type of getHarvestingEngineComponentType.</em></span></h4>
 </div>
 </div>
 <p>&nbsp;</p>
-<h3><span style="color: rgb(224, 62, 45);"><strong><em>Main components</em></strong></span></h3>
+<h3><span style="color: #e03e2d;"><strong><em>Main components</em></strong></span></h3>
 <h4><strong>ConsumerMachineComponent</strong></h4>
 <p>Represents a machine that consumes materials and generates products. Its configurable fields include <code>ManufacturingTime</code>, <code>RequireFuel</code>, <code>RequireEnergy</code>, <code>InputItems</code>, <code>OutputItems</code>, and <code>OperationType</code>.</p>
 <ul>
@@ -57,11 +54,11 @@
 <p>Represents the state of a conveyor. <code>Velocity</code> controls forward movement; <code>Progress</code> indicates the completion status of a task; <code>ItemsDetected</code> and <code>LookingBehaviour</code> indicate object detection and the current search state.</p>
 <h4><strong>HarvestingEngineComponent</strong></h4>
 <p>Represents a harvesting engine. It stores <code>Range</code>, <code>Interval</code>, the current phase, irrigation timing, and the following triggered actions: <code>Water</code>, <code>Harvest</code>, <code>Fertilize</code>, and <code>Accelerate</code>.</p>
-<p><span style="color: rgb(53, 152, 219);"><em>Example operation: Extractor</em></span></p>
+<p><span style="color: #3598db;"><em>Example operation: Extractor</em></span></p>
 <h4><strong>Extractor.Execute(ConsumerMachineComponent)</strong></h4>
 <p>An operation included for consumer machines. Scans the configured positions, identifies the predominant resource, calculates the output and its multipliers, consumes the required materials, and stores the products if the output container has space.</p>
 <pre><code>HyDustryLib.AddConsumerMachineOperationType("Essence Extractor", Extractor::Execute);</code></pre>
-<p><span style="color: rgb(53, 152, 219);"><em>Implemented Utilities</em></span></p>
+<p><span style="color: #3598db;"><em>Implemented Utilities</em></span></p>
 <h4><strong>EssentialsUtils</strong></h4>
 <ul>
 <li><code>getBlockType(World, Vector3i)</code>: queries the block type at a given position.</li>
@@ -94,32 +91,24 @@
 <li><code>HarvestBlockValidation(...)</code>: checks whether the block has a valid harvest configuration.</li>
 </ul>
 <h4><strong>Item Containers</strong></h4>
-<p><code>InputItemsHyDustryLib</code>, <code>OutputItemsHyDustryLib</code>, and <code>SimpleItemContainerHyDustryLib</code> provide operations to check if a stack will fit, retrieve the last item, and remove items from the inventory. Input and output validation functions also allow for locating containers based on the block's configured position.</p>
-<p><span style="color: rgb(53, 152, 219);"><em>Elements not included</em></span></p>
-<ul>
-<li><code>OrientRailsObsolete</code> and functions marked as obsolete: replaced by current orientation functions.</li>
-<li>Obsolete scanner offset and size functions: the current scanner uses configured positions.</li>
-<li><code>RaycastHyDustryLib</code>: empty class.</li>
-<li><code>ConveyorBelt.Execute</code>: method with no implementation.</li>
-<li>Simulation and initialization methods with no actions: these do not contribute any specific behavior to the mod.</li>
-</ul>
+<p><code>ItemContainerHyDustryLib</code> combines item-container and simple-container helpers: it can locate an item container at an absolute or configured relative position, check whether an item fits, retrieve the last occupied stack, and remove a full stack or a requested quantity.</p>
 <p><em>Practical guide to the utilities in the Lib folder</em></p>
-<h3><strong><span style="color: rgb(224, 62, 45);"><em>Before using these functions</em></span></strong></h3>
-<p><span style="color: rgb(224, 62, 45);"><em> This guide covers exclusively the classes located in <code>src/main/java/Hytale/Modification/hydustrylib/Lib</code>. The library is still evolving: some functions that retrieve components from a block rely on the current tagging system and may be subject to change. Please verify references and components before use, and consult the API documentation for the specific version of HyDustry Lib you are using to compile your project. </em></span></p>
-<h3><strong><span style="color: rgb(53, 152, 219);"><em>Getting started</em></span></strong></h3>
+<h3><strong><span style="color: #e03e2d;"><em>Before using these functions</em></span></strong></h3>
+<p><span style="color: #e03e2d;"><em>This guide covers the utility classes in <code>src/main/java/Hytale/Modification/hydustrylib/Lib</code>. Check for a valid block reference and component before using a lookup result, and run operations that modify the world or inventories in the appropriate server context.</em></span></p>
+<h3><strong><span style="color: #3598db;"><em>Getting started</em></span></strong></h3>
 <p>The classes in <code>Lib</code> primarily serve as containers for static methods. They are invoked using the class name; there is no need to create an instance. The examples assume that your mod retrieves the <code>World</code>, <code>CommandBuffer</code>, and block references from the appropriate server context.</p>
 <pre><code>import Hytale.Modification.hydustrylib.Lib.EssentialsUtils;
-import Hytale.Modification.hydustrylib.Lib.InputItemsHyDustryLib;
+import Hytale.Modification.hydustrylib.Lib.ItemContainerHyDustryLib;
 
 BlockType type = EssentialsUtils.getBlockType(world, blockPosition);
 ItemContainerBlock input =
-InputItemsHyDustryLib.GetInputItemsComponent(world, blockPosition);
+ItemContainerHyDustryLib.GetItemContainerComponent(world, blockPosition);
 
 if (type != null &amp;&amp; input != null) {
 // Use the block and its inventory within the server context.
 }</code></pre>
 <p>Several queries will return <code>null</code> if the block, its section, or its component does not exist. Check these results before accessing them. Functions that modify blocks, inventories, or entities must be executed within the appropriate context of the world and its stores.</p>
-<h3><strong><span style="color: rgb(53, 152, 219);"><em>Block and Coordinate Utilities</em></span></strong></h3>
+<h3><strong><span style="color: #3598db;"><em>Block and Coordinate Utilities</em></span></strong></h3>
 <h4><strong>EssentialsUtils</strong></h4>
 <p>Low-level queries for blocks and position conversion. The <code>Vector3i</code> type represents integer block coordinates; the result of <code>getGlobalPosition</code> is a world position.</p>
 <ul>
@@ -130,6 +119,9 @@ if (type != null &amp;&amp; input != null) {
 <li><code>getGlobalPosition(BlockStateInfo, CommandBuffer&lt;ChunkStore&gt;)</code>: calculates the world position using the block state's index and section.</li>
 <li><code>getGlobalPosition(Vector3ic localPosition, BlockStateInfo,
 CommandBuffer&lt;ChunkStore&gt;)</code>: converts an explicit local position; returns <code>null</code> if the section cannot be retrieved.</li>
+<li><code>GetComponentType(World, Vector3i, ComponentType)</code>: retrieves the requested component from the block at an absolute position, or <code>null</code> if the block reference is unavailable.</li>
+<li><code>getRelativePosition(World, Vector3i, Vector3d)</code>: rotates a block-relative offset and resolves filler blocks; honors the <code>HyDustryUtility.Vertical</code> tag.</li>
+<li><code>getValidRelativePosition(World, Vector3i, Vector3d)</code>: resolves a relative position in the same way and returns it only when a block with data exists there.</li>
 </ul>
 <p><strong>Example: querying type and rotation</strong></p>
 <pre><code>BlockType type = EssentialsUtils.getBlockType(world, position);
@@ -167,83 +159,49 @@ RailsHyDustryLib.RailsCalculateNextPosition(orientedPath, progressPercent, 0);
 Vector3d worldPosition = new Vector3d(position.x, position.y, position.z)
 .add(pointOnBlock.x, pointOnBlock.y, pointOnBlock.z);</code></pre>
 <p>The path must contain at least three points for interpolation. For offsets relative to the machine, use <code>OrientGlobalPositions</code> instead of <code>OrientRails</code>; both functions apply different conventions.</p>
-<p><strong>Do not use:</strong> <code>OrientRailsObsolete</code> is marked <code>@Deprecated</code>. Use <code>OrientRails</code>.</p>
-<h3><strong><span style="color: rgb(53, 152, 219);"><em>Utilities for finding block components</em></span></strong></h3>
-<p>The following validators derive a neighboring position using the block's rotation, the expected offset, and&mdash;if present&mdash;the <code>HyDustryUtility.Vertical</code> tag. They then resolve fillers and search for the required component. These are convenient for blocks configured with the tags expected by HyDustry Lib; for new systems, consider maintaining your own references and querying the store directly.</p>
-<h4><strong>InputItemsHyDustryLib</strong></h4>
-<ul>
-<li><code>InputItemsHyDustryValidatorComponent(World, int,
-Vector3i, Map&lt;String, String[]&gt;, Vector3d)</code>: Given the world, rotation, initial position, tags, and expected offset, it attempts to retrieve the input <code>ItemContainerBlock</code>. Returns null if it does not find the block or component.</li>
-<li><code>GetInputItemsComponent(World, Vector3i)</code>: retrieves the input container directly from an absolute position.</li>
-<li><code>ValidationItemForAdding(ItemContainerBlock, ItemStack)</code>: checks for an available slot or a stack with the same identifier that has space.</li>
-<li><code>getLastItem(ItemContainerBlock)</code>: returns the occupied stack closest to the end of the inventory; does not create a copy.</li>
-<li><code>removeLastItem(ItemContainerBlock)</code>: removes the entire stack closest to the end of the inventory.</li>
-</ul>
-<h4><strong>OutputItemsHyDustryLib</strong></h4>
-<ul>
-<li><code>OutputItemsHyDustryValidatorComponent(World, int,
-Vector3i, Map&lt;String, String[]&gt;, Vector3d)</code>: locates the output container based on orientation, tags, and offset.</li>
-<li><code>GetOutputItemsComponent(World, Vector3i)</code>: retrieves the container at an absolute position.</li>
-<li><code>ValidationItemForAdding(ItemContainerBlock, ItemStack)</code>: checks whether the item can be placed into a compatible slot or stack.</li>
-<li><code>getLastItem(ItemContainerBlock, int count)</code>: returns a clean copy of up to <code>count</code> items from the last occupied stack. Does not modify the inventory.</li>
-<li><code>removeLastItem(ItemContainerBlock, int count)</code>: removes up to <code>count</code> items from the last occupied stack and updates or clears the slot.</li>
-</ul>
+<h3><strong><span style="color: #3598db;"><em>Utilities for finding block components</em></span></strong></h3>
+<p><code>EssentialsUtils</code> provides generic component lookup at an absolute position and helpers for rotating relative offsets, resolving filler blocks, and checking that a destination block exists. Relative lookups honor the <code>HyDustryUtility.Vertical</code> tag.</p>
 <h4><strong>ItemContainerHyDustryLib</strong></h4>
 <ul>
-<li><code>ItemContainerBlockValidatorComponent(World, int,
-Vector3i, Map&lt;String, String[]&gt;, Vector3d</code>): searches for an <code>ItemContainerBlock</code> at the specified relative and oriented position. Returns null if the block or component is unavailable.</li>
-</ul>
-<h4><strong>ComponentsGenericHyDustryLib</strong></h4>
-<ul>
-<li><code>InputItemsHyDustryValidatorComponent(World, int,
-Vector3i, Map&lt;String, String[]&gt;, Vector3d)</code>: uses the same relative positioning rule to return a <code>Ref&lt;ChunkStore&gt;</code> reference for the neighboring block. It does not return the inventory component itself; you must query the store using that reference.</li>
+<li><code>GetItemContainerComponent(World, Vector3i)</code>: retrieves an <code>ItemContainerBlock</code> at an absolute position.</li>
+<li><code>GetItemContainerComponent(World, Vector3i, Vector3d)</code>: resolves the relative offset from a base block, including rotation and filler blocks, then retrieves the container.</li>
+<li><code>ValidationItemForAdding(ItemContainerBlock, ItemStack)</code> and <code>ValidationItemForAdding(SimpleItemContainer, ItemStack)</code>: check for an empty slot or a compatible stack with room.</li>
+<li><code>getLastItem(ItemContainerBlock)</code>: returns the last occupied stack in a block container.</li>
+<li><code>getLastItem(SimpleItemContainer, int count)</code>: returns a copy of up to <code>count</code> items from the last occupied stack without changing the container.</li>
+<li><code>removeLastItem(ItemContainerBlock)</code>: removes the last occupied stack from a block container.</li>
+<li><code>removeLastItem(SimpleItemContainer, int count)</code>: removes up to <code>count</code> items from the last occupied stack.</li>
 </ul>
 <h4><strong>ConsumerMachineHyDustryLib</strong></h4>
 <ul>
 <li><code>ConsumerMachineValidatorComponent(World, int,
 Vector3i, Map&lt;String, String[]&gt;, Vector3d)</code>: searches for a consumer machine at the relative position and returns its <code>ConsumerMachineComponent</code>, or null if it does not exist.</li>
 </ul>
-<p>Functions ending in <code>ValidatorComponent</code> perform a lookup and may return null. They do not create or add components. Ensure that the arguments correspond to the base block and its orientation before using them.</p>
-<p><strong>Example of a relative container</strong></p>
+<p>Lookups return <code>null</code> when the requested block or component cannot be resolved. They do not create or add components. Supply a base position and relative offset for relative lookups.</p>
+<p><strong>Example: retrieving a relative container</strong></p>
 <pre><code>ItemContainerBlock input =
-InputItemsHyDustryLib.InputItemsHyDustryValidatorComponent(
+ItemContainerHyDustryLib.GetItemContainerComponent(
 world,
-rotation,
 machinePosition,
-rawTags,
 new Vector3d(0, 0, -1)
 );
 
 if (input != null &amp;&amp; input.getItemContainer() != null) {
 // Query or modify the inventory within a valid server context.
 }</code></pre>
-<p>The current validators read <code>HyDustryUtility.Vertical</code> from the tags to determine the vertical position. If your mod does not use these tags, it is preferable to use <code>GetInputItemsComponent</code>, <code>GetOutputItemsComponent</code>, or your own queries to the store.</p>
-<h3><strong><span style="color: rgb(53, 152, 219);"><em>Inventories</em></span></strong></h3>
-<h4><strong>SimpleItemContainerHyDustryLib</strong></h4>
-<ul>
-<li><code>ValidationItemForAdding(SimpleItemContainer, ItemStack)</code>: returns true if it finds an empty slot or a stack of the same item that is not full.</li>
-<li><code>getLastItem(SimpleItemContainer, int count)</code>: returns a clean copy of up to <code>count</code> units from the last stack. If <code>count</code> is not positive or there are no items, it returns null.</li>
-<li><code>removeLastItem(SimpleItemContainer, int count)</code>: removes up to <code>count</code> units from the last occupied stack and returns true if it found a stack to modify.</li>
-</ul>
-<h4><strong>Choosing the right utility</strong></h4>
-<ul>
-<li>Use <code>InputItemsHyDustryLib</code> for containers with the HyDustry input component.</li>
-<li>Use <code>OutputItemsHyDustryLib</code> to query, copy, or remove a partial quantity from an output.</li>
-<li>Use <code>SimpleItemContainerHyDustryLib</code> when you already have a <code>SimpleItemContainer</code>&mdash;for example, to transport one unit at a time.</li>
-</ul>
+<h3><strong><span style="color: #3598db;"><em>Inventories</em></span></strong></h3>
 <p><strong>Example: removing one unit without modifying it before inspection</strong></p>
 <pre><code>ItemStack preview =
-SimpleItemContainerHyDustryLib.getLastItem(container, 1);
+ItemContainerHyDustryLib.getLastItem(container, 1);
 
 if (preview != null &amp;&amp; isValidDestination(preview)) {
 boolean removed =
-SimpleItemContainerHyDustryLib.removeLastItem(container, 1); 
+ItemContainerHyDustryLib.removeLastItem(container, 1); 
 if (removed) {
 // Transfer preview to the destination. 
 }
 }</code></pre>
 <p><code>ValidationItemForAdding</code> only checks whether there is capacity; it does not add the object or reserve space. Between validation and addition, re-verify the state if other operations might modify the inventory.</p>
-<h3><strong><span style="color: rgb(53, 152, 219);"><em>Object Entities</em></span></strong></h3>
+<h3><strong><span style="color: #3598db;"><em>Object Entities</em></span></strong></h3>
 <h4><strong>EntityHyDustryLib</strong></h4>
 <ul>
 <li><code>EntityIsValid(Ref&lt;EntityStore&gt; ref)</code>: checks that the reference is valid, has a Store, and possesses a <code>UUIDComponent</code>.</li>
@@ -251,7 +209,7 @@ if (removed) {
 boolean BH, Store&lt;EntityStore&gt; store, Ref&lt;EntityStore&gt; ref)</code>: if <code>BH == false</code>, it adds components that prevent merging and pickup; if <code>BH == true</code>, it removes them and adjusts the object's position.</li>
 </ul>
 <p>This function directly alters the entity's components and transform. Call it only when it is appropriate to temporarily change the object's behavior.</p>
-<h3><strong><span style="color: rgb(53, 152, 219);"><em>Farming and Harvesting</em></span></strong></h3>
+<h3><strong><span style="color: #3598db;"><em>Farming and Harvesting</em></span></strong></h3>
 <h4><strong>FarmingHyDustryLib</strong></h4>
 <ul>
 <li><code>ProccesingCoopsInRange(CommandBuffer&lt;ChunkStore&gt;,
@@ -279,24 +237,19 @@ ItemContainerBlock)</code>: checks the harvest configuration and whether the inv
 <li><code>HarvestBlockValidation(Vector3i, World)</code>: checks whether the block has a drop configuration and if its crop configuration allows it to be processed.</li>
 </ul>
 <p>Before harvesting, check the block type and the inventory. The harvest function may modify both the world and the container; do not use it as a read-only query.</p>
-<h3><strong><span style="color: rgb(53, 152, 219);"><em>API Annotations</em></span></strong></h3>
+<h3><strong><span style="color: #3598db;"><em>API Annotations</em></span></strong></h3>
 <ul>
 <li><code>@safe(reason = "...")</code>: a source-level annotation used to identify methods or constructors considered stable by the library.</li>
 <li><code>@Insecure(reason = "...")</code>: a source-level annotation used to warn that a method or constructor requires caution.</li>
 </ul>
 <p>These annotations do not replace runtime validation, nor do they automatically apply any protections. Their retention is <code>SOURCE</code>, meaning they are not preserved as metadata at runtime.</p>
-<h3><strong><span style="color: rgb(53, 152, 219);"><em>Classes with no current public utility</em></span></strong></h3>
-<ul>
-<li><code>RaycastHyDustryLib</code>: an empty class; provides no functions.</li>
-<li><code>OrientRailsObsolete</code>: an obsolete method; use <code>OrientRails</code> instead.</li>
-</ul>
-<h1><span style="color: rgb(224, 62, 45);"><strong><em>for Node Editor programmers</em></strong></span></h1>
+<h1><span style="color: #e03e2d;"><strong><em>for Node Editor programmers</em></strong></span></h1>
 <p>&nbsp;</p>
 <p><em>Guide for configuring blocks, components, and tags using the Hytale Node Editor</em></p>
-<h3><strong><span style="color: rgb(224, 62, 45);"><em>Scope and Warnings</em></span></strong></h3>
-<p><span style="color: rgb(224, 62, 45);"><em> This guide outlines the keys and fields that are read or registered by the current code in HyDustry Lib. Tags represent block data, while components are distinct data elements added to a block via the editor. Not all tags are required for every block. Any keys not mentioned here are not currently used in the reviewed code. </em></span></p>
+<h3><strong><span style="color: #e03e2d;"><em>Scope and Warnings</em></span></strong></h3>
+<p><span style="color: #e03e2d;"><em> This guide outlines the keys and fields that are read or registered by the current code in HyDustry Lib. Tags represent block data, while components are distinct data elements added to a block via the editor. Not all tags are required for every block. Any keys not mentioned here are not currently used in the reviewed code. </em></span></p>
 <p><strong>Important:</strong> The current code looks for keys that begin with <code>HyDustryUtility.</code>. A key named <code>HyDustry.Behaviour</code> is not equivalent to <code>HyDustryUtility.Behaviour</code> and will not trigger the conveyor behavior described in this guide.</p>
-<h3><strong><span style="color: rgb(53, 152, 219);"><em>How a Tag Is Represented</em></span></strong></h3>
+<h3><strong><span style="color: #3598db;"><em>How a Tag Is Represented</em></span></strong></h3>
 <p>HyDustry Lib receives block tags as a <code>Map&lt;String, String[]&gt;</code>: each entry consists of a text key mapped to an array of text values. In Hytale source files, the format looks like this:</p>
 <pre><code>{
 "HyDustryUtility.Machine.Behaviour": ["Essence Extractor"],
@@ -309,12 +262,12 @@ ItemContainerBlock)</code>: checks the harvest configuration and whether the inv
 <li>Do not include comments within the JSON. Snippets in this guide containing <code>//</code> are for explanation only and are not part of the data.</li>
 <li>A "flag" type tag can be activated simply by being present, regardless of the text it contains. For these, using <code>["true"]</code> is recommended.</li>
 </ul>
-<h3><strong><span style="color: rgb(53, 152, 219);"><em>Rule of thumb: Tags vs. Components</em></span></strong></h3>
+<h3><strong><span style="color: #3598db;"><em>Rule of thumb: Tags vs. Components</em></span></strong></h3>
 <p><strong>Tags:</strong> Describe configuration that the code reads from a block's raw tags. Examples include recipes, scanner positions, paths, and input/output offsets.</p>
 <p><strong>Components:</strong> Store the state and options for HyDustry Lib systems. The plugin registers three components: <code>ConsumerMachineComponent</code>, <code>ConveyorTransporterComponent</code>, and <code>HarvestingEngineComponent</code>. Add these to the appropriate block via the editor and configure their fields in the component panel. Do not convert these fields into tags, unless the code explicitly indicates that it reads a tag.</p>
 <p>The component examples below show the editable fields registered by the codec, not the entire Hytale block file wrapper. The exact way in which the Node Editor serializes or references components depends on the Hytale block format and should not be inferred from the tag map.</p>
-<h3><strong><span style="color: rgb(53, 152, 219);"><em>Summary of recognized tags</em></span></strong></h3>
-<table border="1" cellspacing="0" cellpadding="6">
+<h3><strong><span style="color: #3598db;"><em>Summary of recognized tags</em></span></strong></h3>
+<table>
 <thead>
 <tr>
 <th>Full tag</th>
@@ -420,9 +373,9 @@ ItemContainerBlock)</code>: checks the harvest configuration and whether the inv
 </tr>
 </tbody>
 </table>
-<h3><strong><span style="color: rgb(53, 152, 219);"><em>ConsumerMachineComponent</em></span></strong></h3>
+<h3><strong><span style="color: #3598db;"><em>ConsumerMachineComponent</em></span></strong></h3>
 <p>Add this component to the block representing a processing machine. The input and output containers are references/data from <code>ItemContainerBlock</code> that must be configured in the component's fields via the Node Editor; they are not object IDs within the tags.</p>
-<table border="1" cellspacing="0" cellpadding="6">
+<table>
 <thead>
 <tr>
 <th>Component field</th>
@@ -565,9 +518,9 @@ OutputItemsContainer: assign the output container</code></pre>
 <p>While <code>HyDustryUtility.Machine.Output.Timer.N</code> can be accessed via a helper utility, <code>Extractor.Execute</code> does not utilize that helper.</p>
 <p>For the current extractor, the active key is <code>Output.Multiplicator.Timer.&lt;Resource ID&gt;</code>.</p>
 <p>&nbsp;</p>
-<h3><strong><span style="color: rgb(53, 152, 219);"><em>ConveyorTransporterComponent</em></span></strong></h3>
+<h3><strong><span style="color: #3598db;"><em>ConveyorTransporterComponent</em></span></strong></h3>
 <p>Add this component to the conveyor block so that the ticking systems can update its progress and search for or deposit items.</p>
-<table border="1" cellspacing="0" cellpadding="6">
+<table>
 <thead>
 <tr>
 <th>Component Field</th>
@@ -619,9 +572,9 @@ Progress (Only Tags): 0.0
 ItemsDetected (Only Tags): false
 Looking Behaviour (Only Tags): false</code></pre>
 <p>Leave the progress at 0 and the indicators set to <code>false</code> when creating the conveyor belt. The system will update them during operation.</p>
-<h3><strong><span style="color: rgb(53, 152, 219);"><em>HarvestingEngineComponent</em></span></strong></h3>
+<h3><strong><span style="color: #3598db;"><em>HarvestingEngineComponent</em></span></strong></h3>
 <p>Add this component to the agricultural engine block. No <code>HyDustryUtility.Machine.*</code> tags are required to trigger its actions; these options are configured within the component itself.</p>
-<table border="1" cellspacing="0" cellpadding="6">
+<table>
 <thead>
 <tr>
 <th>Field</th>
@@ -710,13 +663,13 @@ Looking Behaviour (Only Tags): false</code></pre>
 "LastActionTime": "1970-01-01 00:00:00"
 }</code></pre>
 <p>Harvesting places drops into the engine's local container when available. It verifies that the engine block has a compatible inventory and that the target blocks have harvest/collection data configured.</p>
-<h3><strong><span style="color: rgb(53, 152, 219);"><em>Vertical Tag and Neighboring Block Validators</em></span></strong></h3>
+<h3><strong><span style="color: #3598db;"><em>Vertical Tag and Neighboring Block Validators</em></span></strong></h3>
 <p>Input/output validators, containers, and neighboring components check for the presence of <code>HyDustryUtility.Vertical</code>. If it is absent, they apply the expected horizontal offset after rotating the block. If it is present, they leave the X/Z coordinates unchanged and apply a vertical (Y) offset, with the sign determined by the rotation index.</p>
 <pre><code>{
 "HyDustryUtility.Vertical": ["true"]
 }</code></pre>
 <p>The tag does not specify the vertical distance:The code uses exactly one block&rsquo;s distance upward or downward. This behavior is specific to HyDustry Lib validators; it does not apply to all machines or the scanner.</p>
-<h3><strong><span style="color: rgb(53, 152, 219);"><em>Common Errors</em></span></strong></h3>
+<h3><strong><span style="color: #3598db;"><em>Common Errors</em></span></strong></h3>
 <ul>
 <li><strong>Using the wrong prefix:</strong> writing <code>HyDustry.Behaviour</code> instead of <code>HyDustryUtility.Behaviour</code>.</li>
 <li><strong>Using an incorrect ingredient key:</strong> the code expects <code>Machine.Requiere.Items</code>&mdash;not <code>Machine.Require.Items</code> or <code>Machine.Requires.Items</code>.</li>
@@ -727,7 +680,7 @@ Looking Behaviour (Only Tags): false</code></pre>
 <li><strong>Expecting functional energy:</strong> <code>It requires energy</code> is serialized, but it is not currently checked by the logic.</li>
 <li><strong>Setting the wrong auxiliary timer:</strong> <code>Output.Timer.N</code> does not currently control <code>Extractor.Execute</code>; The key referenced by that operation is <code>Output.Multiplicator.Timer.ID</code>.</li>
 </ul>
-<h3><strong><span style="color: rgb(53, 152, 219);"><em>Checklist before testing</em></span></strong></h3>
+<h3><strong><span style="color: #3598db;"><em>Checklist before testing</em></span></strong></h3>
 <ol>
 <li>Confirm that the keys use the exact prefix <code>HyDustryUtility.</code>.</li>
 <li>Add the corresponding component to the block via the Node Editor.</li>
