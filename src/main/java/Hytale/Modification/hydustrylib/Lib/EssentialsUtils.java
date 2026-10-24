@@ -64,7 +64,7 @@ public class EssentialsUtils {
     
     public static Ref<ChunkStore> getBlockRef(World world, Vector3i Position){
         Store<ChunkStore> ChunkStore = world.getChunkStore().getStore();
-        if (ChunkStore != null) {
+        if (ChunkStore != null && Position != null) {
             Ref<ChunkStore> Section = world.getChunkStore().getChunkSectionReferenceAtBlock(Position.x, Position.y, Position.z);
             if (Section != null) {
                 Ref<ChunkStore> BlockRef = BlockModule.getBlockEntity(ChunkStore, Section, Position.x, Position.y, Position.z);

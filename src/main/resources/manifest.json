@@ -1,7 +1,7 @@
 {
     "Group": "Hytale.Modification",
     "Name": "HyDustryLib",
-    "Version": "1.0.1",
+    "Version": "1.0.2",
     "Description": "Utility for Hytale modding and developers, includes greater ease and process optimization",
     "Authors": [
         {
